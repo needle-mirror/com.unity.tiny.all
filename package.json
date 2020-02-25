@@ -1,16 +1,16 @@
 {
   "name": "com.unity.tiny.all",
   "displayName": "Project Tiny Full",
-  "version": "0.21.0-preview",
+  "version": "0.22.0-preview.2",
   "unity": "2019.3",
   "description": "This package includes all Project tiny packages and their dependencies",
   "dependencies": {
-    "com.unity.dots.runtime": "0.2.0-preview.3",
+    "com.unity.dots.runtime": "0.22.0-preview.5",
     "com.unity.entities": "0.5.1-preview.11",
-    "com.unity.tiny": "0.21.0-preview.3",
-    "com.unity.tiny.rendering": "0.21.0-preview.4",
-    "com.unity.tiny.web": "0.21.0-preview.3",
-    "com.unity.tiny.desktop": "0.21.0-preview.3",
+    "com.unity.tiny": "0.22.0-preview.5",
+    "com.unity.tiny.rendering": "0.22.0-preview.5",
+    "com.unity.tiny.web": "0.22.0-preview.5",
+    "com.unity.tiny.desktop": "0.22.0-preview.5",
     "com.unity.physics": "0.2.5-preview.1",
     "com.unity.platforms": "0.1.8-preview.1",
     "com.unity.platforms.android": "0.1.8-preview.3",
@@ -19,11 +19,13 @@
     "com.unity.platforms.linux": "0.1.8-preview",
     "com.unity.platforms.macos": "0.1.8-preview",
     "com.unity.platforms.web": "0.1.8-preview.1",
-    "com.unity.platforms.windows": "0.1.8-preview"
+    "com.unity.platforms.windows": "0.1.8-preview",
+    "com.unity.render-pipelines.universal": "7.1.7",
+    "com.unity.rendering.hybrid": "0.3.2-preview.17"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Unity-Technologies/tiny-all.git",
-    "revision": "a8bbcac6ffbab683d38b3ffa3be4a7b52ac5778f"
+    "revision": "283fae98db1c796e339cadff27c7eda9c7654519"
   }
 }
