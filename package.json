@@ -1,16 +1,16 @@
 {
   "name": "com.unity.tiny.all",
   "displayName": "Project Tiny Full",
-  "version": "0.22.0-preview.2",
+  "version": "0.22.0-preview.3",
   "unity": "2019.3",
   "description": "This package includes all Project tiny packages and their dependencies",
   "dependencies": {
     "com.unity.dots.runtime": "0.22.0-preview.5",
     "com.unity.entities": "0.5.1-preview.11",
-    "com.unity.tiny": "0.22.0-preview.5",
-    "com.unity.tiny.rendering": "0.22.0-preview.5",
-    "com.unity.tiny.web": "0.22.0-preview.5",
-    "com.unity.tiny.desktop": "0.22.0-preview.5",
+    "com.unity.tiny": "0.22.0-preview.7",
+    "com.unity.tiny.rendering": "0.22.0-preview.7",
+    "com.unity.tiny.web": "0.22.0-preview.7",
+    "com.unity.tiny.desktop": "0.22.0-preview.7",
     "com.unity.physics": "0.2.5-preview.1",
     "com.unity.platforms": "0.1.8-preview.1",
     "com.unity.platforms.android": "0.1.8-preview.3",
@@ -26,6 +26,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Unity-Technologies/tiny-all.git",
-    "revision": "283fae98db1c796e339cadff27c7eda9c7654519"
+    "revision": "192f4206378842dae5ce74965dbbcf70a070f716"
   }
 }
