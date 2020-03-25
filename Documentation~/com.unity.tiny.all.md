@@ -1,14 +1,8 @@
-# About com.unity.tiny.all
+# About Project Tiny (preview)
 
-This package includes all Project Tiny packages and their dependencies
+With Project Tiny, Unity's upcoming new highly modular runtime powered by DOTS, you will be able to build instant games for mobile (iOS/Android) and web (HTML5/WebGL) that are small, light and fast.
 
-Go to the ["Getting Started Guide"](https://docs.google.com/document/d/1A8hen2hLFY5FLkC5gd3JP2Z-IpHfnAX-CpYLK3aOdwA/edit) for details on setting up a project.
+This package (com.unity.tiny.all) includes all Project Tiny package dependencies.
 
-# Installing com.unity.tiny.all
-
-To install this package, follow the instructions in the [Package Manager documentation](https://docs.unity3d.com/Packages/com.unity.package-manager-ui@latest/index.html). 
-
-# Requirements
-
-This version of the package is compatible with the following versions of the Unity Editor:
-* 2019.3 and later
+## Project Tiny is under heavy development.
+Be sure to check the [forum](https://forum.unity.com/forums/project-tiny.151/) for announcements and the latest "Getting Started" information including minimum requirements (Unity version, environment dependencies, etc.).
