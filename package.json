@@ -1,31 +1,31 @@
 {
   "name": "com.unity.tiny.all",
   "displayName": "Project Tiny Full",
-  "version": "0.23.0-preview.2",
+  "version": "0.24.0-preview.1",
   "unity": "2019.3",
   "description": "This package includes all Project tiny packages and their dependencies",
   "dependencies": {
-    "com.unity.dots.runtime": "0.23.0-preview",
-    "com.unity.entities": "0.8.0-preview.8",
-    "com.unity.tiny": "0.23.0-preview",
-    "com.unity.tiny.rendering": "0.23.0-preview.2",
-    "com.unity.tiny.web": "0.23.0-preview",
-    "com.unity.tiny.desktop": "0.23.0-preview",
+    "com.unity.dots.runtime": "0.24.0-preview.1",
+    "com.unity.entities": "0.9.0-preview.6",
+    "com.unity.tiny": "0.24.0-preview.1",
+    "com.unity.tiny.rendering": "0.24.0-preview.1",
+    "com.unity.tiny.web": "0.24.0-preview.1",
+    "com.unity.tiny.desktop": "0.24.0-preview.1",
     "com.unity.physics": "0.2.5-preview.1",
-    "com.unity.platforms": "0.2.1-preview.8",
-    "com.unity.platforms.android": "0.2.1-preview.8",
-    "com.unity.platforms.desktop": "0.2.1-preview.8",
-    "com.unity.platforms.ios": "0.2.1-preview.9",
-    "com.unity.platforms.linux": "0.2.1-preview.8",
-    "com.unity.platforms.macos": "0.2.1-preview.8",
-    "com.unity.platforms.web": "0.2.1-preview.12",
-    "com.unity.platforms.windows": "0.2.1-preview.8",
+    "com.unity.platforms": "0.2.2-preview.10",
+    "com.unity.platforms.android": "0.2.2-preview.11",
+    "com.unity.platforms.desktop": "0.2.2-preview.10",
+    "com.unity.platforms.ios": "0.2.2-preview.11",
+    "com.unity.platforms.linux": "0.2.2-preview.11",
+    "com.unity.platforms.macos": "0.2.2-preview.10",
+    "com.unity.platforms.web": "0.2.2-preview.10",
+    "com.unity.platforms.windows": "0.2.2-preview.10",
     "com.unity.render-pipelines.universal": "7.1.8",
-    "com.unity.rendering.hybrid": "0.4.0-preview.8"
+    "com.unity.rendering.hybrid": "0.4.1-preview.6"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Unity-Technologies/tiny-all.git",
-    "revision": "7d922a8f65e12ef3021faeee3adf217e48cb9f19"
+    "revision": "90d68cab43aa3db7af4a6de149c15bb1e697e389"
   }
 }
