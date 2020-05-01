@@ -1,7 +1,7 @@
 {
   "name": "com.unity.tiny.all",
   "displayName": "Project Tiny Full",
-  "version": "0.25.0-preview",
+  "version": "0.25.0-preview.1",
   "unity": "2019.3",
   "description": "This package includes all Project tiny packages and their dependencies",
   "dependencies": {
@@ -18,7 +18,7 @@
     "com.unity.platforms.ios": "0.3.0-preview.3",
     "com.unity.platforms.linux": "0.3.0-preview.2",
     "com.unity.platforms.macos": "0.3.0-preview.2",
-    "com.unity.platforms.web": "0.3.0-preview.6",
+    "com.unity.platforms.web": "0.3.0-preview.7",
     "com.unity.platforms.windows": "0.3.0-preview.2",
     "com.unity.render-pipelines.universal": "7.1.8",
     "com.unity.rendering.hybrid": "0.5.0-preview.6"
@@ -26,6 +26,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Unity-Technologies/tiny-all.git",
-    "revision": "c029d62067528e383df9da056bec50ec0645878d"
+    "revision": "a9d69bada2124e24161c7a368888b3125b612611"
   }
 }
