@@ -1,31 +1,31 @@
 {
   "name": "com.unity.tiny.all",
   "displayName": "Project Tiny Full",
-  "version": "0.24.0-preview.1",
+  "version": "0.25.0-preview",
   "unity": "2019.3",
   "description": "This package includes all Project tiny packages and their dependencies",
   "dependencies": {
-    "com.unity.dots.runtime": "0.24.0-preview.1",
-    "com.unity.entities": "0.9.0-preview.6",
-    "com.unity.tiny": "0.24.0-preview.1",
-    "com.unity.tiny.rendering": "0.24.0-preview.1",
-    "com.unity.tiny.web": "0.24.0-preview.1",
-    "com.unity.tiny.desktop": "0.24.0-preview.1",
-    "com.unity.physics": "0.2.5-preview.1",
-    "com.unity.platforms": "0.2.2-preview.10",
-    "com.unity.platforms.android": "0.2.2-preview.11",
-    "com.unity.platforms.desktop": "0.2.2-preview.10",
-    "com.unity.platforms.ios": "0.2.2-preview.11",
-    "com.unity.platforms.linux": "0.2.2-preview.11",
-    "com.unity.platforms.macos": "0.2.2-preview.10",
-    "com.unity.platforms.web": "0.2.2-preview.10",
-    "com.unity.platforms.windows": "0.2.2-preview.10",
+    "com.unity.dots.runtime": "0.25.0-preview",
+    "com.unity.entities": "0.10.0-preview.6",
+    "com.unity.tiny": "0.25.0-preview",
+    "com.unity.tiny.rendering": "0.25.0-preview",
+    "com.unity.tiny.web": "0.25.0-preview",
+    "com.unity.tiny.desktop": "0.25.0-preview",
+    "com.unity.physics": "0.3.2-preview",
+    "com.unity.platforms": "0.3.0-preview.2",
+    "com.unity.platforms.android": "0.3.0-preview.4",
+    "com.unity.platforms.desktop": "0.3.0-preview.2",
+    "com.unity.platforms.ios": "0.3.0-preview.3",
+    "com.unity.platforms.linux": "0.3.0-preview.2",
+    "com.unity.platforms.macos": "0.3.0-preview.2",
+    "com.unity.platforms.web": "0.3.0-preview.6",
+    "com.unity.platforms.windows": "0.3.0-preview.2",
     "com.unity.render-pipelines.universal": "7.1.8",
-    "com.unity.rendering.hybrid": "0.4.1-preview.6"
+    "com.unity.rendering.hybrid": "0.5.0-preview.6"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Unity-Technologies/tiny-all.git",
-    "revision": "90d68cab43aa3db7af4a6de149c15bb1e697e389"
+    "revision": "c029d62067528e383df9da056bec50ec0645878d"
   }
 }
