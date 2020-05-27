@@ -4,6 +4,21 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.26.0] - 2020-05-26
+### What's new
+* Project Tiny Base Class Library: Added missing types basic collections (e.g. Dictionary, associated iterators) and System.IO.Stream. We’ve created a list of what’s included in the Project Tiny Base Class Library
+* iOS: Modified iOS template project so it will use Storyboard for launch screen instead of XIB files
+* Particles: Added support Start color and gravity modifier in particles system
+Unity version: Project Tiny now requires Unity `2019.3.12f1` as a minimum supported version
+
+### Fixed
+* Android Input: GetMouseButtonUp/Down does not get triggered on android
+* Audio is continues to play on iOS devices even if the silent button is turned on
+* Texture V scale < 1 has wrong behavior
+* iOS Wasm & AsmJS: No sound is playing
+* Cannot build when specifying absolute path as output directory
+* Depth sorting is not working
+
 ## [0.25.0] - 2020-04-30
 ### What's new
 * Multi-touch on Android and iOS
