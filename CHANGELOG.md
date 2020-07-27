@@ -4,6 +4,45 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.28.0] - 2020-07-27
+### What's new
+* Basic in-game text rendering support
+* CPU/GPU mesh skinning 
+* The ability to select the render graph properties at build or run time
+* Dynamically assign lights
+* Add WebP image lossy/lossless encoding
+* Improve audio assets decompression on web
+* Build web into a single HTML file export 
+* Use .NET Core to run il2cpp on Windows and MacOS
+* Improve IL2CPP code generation to make code size smaller
+* Profiler multi-threading support
+* PlayerConnection multi-threading support
+* Android and iOS advanced build settings support
+* Android ARM64 and FAT Support
+* New build settings component to adjust allowed screen orientations
+
+### Fixed
+* Optimized the Tiny particles system
+* Improve the tiny conversion workflow
+* Clean up runtime memory usage on Android and iOS  
+* Fixed an issue where audio volume may change with screen rotation on iOS
+* Projection matrix is locked at 16:9 aspect ratio
+* Web input can't distinguish between left and right keyboard control keys
+* Audio may not properly play in web builds on iOS
+* Improve Web build and run workflow
+* Speed up building Android managed debugger targets
+* DisplayInfo.ScreenDpiScale may return 0 on some platforms 
+* Match the input position with the display info data
+* PlayerConnection crashes on application shutdown when the application leaks memory 
+* Textures do not load properly when managed debugging is enabled
+* Fixed Emscripten WebGL/HTML5 API proxying for Offscreen Framebuffer
+* Audio not working after minimizing and maximizing the app on iOS web builds
+* Build and run web builds show raw html file
+* Improve unsafe utility allocator for DOTS Runtime
+
+## [0.27.0] - 2020-06-17
+* Update package dependencies 
+
 ## [0.26.0] - 2020-05-26
 ### What's new
 * Project Tiny Base Class Library: Added missing types basic collections (e.g. Dictionary, associated iterators) and System.IO.Stream. We’ve created a list of what’s included in the Project Tiny Base Class Library
