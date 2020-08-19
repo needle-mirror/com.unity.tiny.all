@@ -4,6 +4,30 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.29.0] - 2020-08-19
+### What's new
+* Web managed debugger
+* Webp lossless is now the default texture format
+* Implement signing settings support for Android and iOS
+* Implement build & run functionality for iOS builds
+* Update 2D Entities package to latest version of Project Tiny
+
+### Fixed
+* Improve the performance of debugger attaching
+* Error when instantiating an entity with animation component
+* Wasm builds throw exception on startup when build contains multiple subscenes
+* Enable memory growth by default for web builds
+* Optimize float4x4 SIMD multiplications
+* Optimize temp linear allocator
+* Fix input offset on some Android web browsers
+* Fix an issue where building macos desktop fails after building iOS
+* Fix a bug where changes in the scene don’t get built on Android
+* Set correct depth on tiny text submit calls for transparency sorting
+* Fix an issue where tiny builds will fail if Unity china version is used
+* Fix depth sorting in Tiny particles 
+* Managed debugger Android builds are crashing on launch if built using Android FAT configuration
+
+
 ## [0.28.0] - 2020-07-27
 ### What's new
 * Basic in-game text rendering support

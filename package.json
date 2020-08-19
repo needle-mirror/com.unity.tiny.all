@@ -1,35 +1,35 @@
 {
   "name": "com.unity.tiny.all",
   "displayName": "Project Tiny Full",
-  "version": "0.28.0-preview.40",
+  "version": "0.29.0-preview.22",
   "unity": "2020.1",
-  "unityRelease": "0b15",
+  "unityRelease": "0f1",
   "description": "This package includes all Project tiny packages and their dependencies",
   "dependencies": {
-    "com.unity.dots.runtime": "0.28.0-preview.40",
-    "com.unity.entities": "0.13.0-preview.24",
-    "com.unity.tiny": "0.28.0-preview.40",
-    "com.unity.tiny.rendering": "0.28.0-preview.40",
-    "com.unity.tiny.web": "0.28.0-preview.40",
-    "com.unity.tiny.desktop": "0.28.0-preview.40",
+    "com.unity.dots.runtime": "0.29.0-preview.22",
+    "com.unity.entities": "0.14.0-preview.18",
+    "com.unity.tiny": "0.29.0-preview.22",
+    "com.unity.tiny.rendering": "0.29.0-preview.22",
+    "com.unity.tiny.web": "0.29.0-preview.22",
+    "com.unity.tiny.desktop": "0.29.0-preview.22",
     "com.unity.physics": "0.4.0-preview.5",
-    "com.unity.platforms": "0.6.0-preview.5",
-    "com.unity.platforms.android": "0.6.0-preview.5",
-    "com.unity.platforms.desktop": "0.6.0-preview.5",
-    "com.unity.platforms.ios": "0.6.0-preview.5",
-    "com.unity.platforms.linux": "0.6.0-preview.5",
-    "com.unity.platforms.macos": "0.6.0-preview.5",
-    "com.unity.platforms.web": "0.6.0-preview.7",
-    "com.unity.platforms.windows": "0.6.0-preview.5",
+    "com.unity.platforms": "0.7.0-preview.10",
+    "com.unity.platforms.android": "0.7.0-preview.10",
+    "com.unity.platforms.desktop": "0.7.0-preview.10",
+    "com.unity.platforms.ios": "0.7.0-preview.10",
+    "com.unity.platforms.linux": "0.7.0-preview.10",
+    "com.unity.platforms.macos": "0.7.0-preview.10",
+    "com.unity.platforms.web": "0.7.0-preview.10",
+    "com.unity.platforms.windows": "0.7.0-preview.10",
     "com.unity.render-pipelines.universal": "8.2.0",
-    "com.unity.rendering.hybrid": "0.7.0-preview.24"
+    "com.unity.rendering.hybrid": "0.8.0-preview.18"
   },
   "upmCi": {
-    "footprint": "56b958f4f1a66be82c6a6b84d1355e678fd5b8fe"
+    "footprint": "65adcb78758f6e7fd4a638959d144f31f8489bd9"
   },
   "repository": {
     "url": "https://github.com/Unity-Technologies/tiny-all.git",
     "type": "git",
-    "revision": "4b14fd88d01856c8d006af76fa3b292d2a81e9e7"
+    "revision": "13e0be62a6c5bed2c66c305e5e63e703024c0b63"
   }
 }
