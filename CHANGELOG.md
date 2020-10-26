@@ -4,6 +4,34 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.31.0] - 2020-10-26
+### hat's new
+* Add Version field to GeneralSettings build component
+* Graphics settings now works on mobile platforms
+* Support for native app icons in Android and iOS apps
+* Support HLSL shaders
+* Game saves/preferences support
+* Support for Bursted ECBs
+* New scene management pipeline
+* Multi-camera support
+* Blendshapes support
+* Support incremental conversion
+* Support for Tiny JSON
+* Custom web templates are now supported
+
+### Fixes
+* Enhance the emscripten build settings component
+* Skinned meshes don't work with unlit shaders
+* WebpEncoderNativeCalls.LibName is undefined if the Editor target platform is anything else than PC standalone one (the default)
+* Some rendering systems are in wrong ComponentSystemGroup
+* Particle billboards do not face camera when rotation is applied
+* Particle billboard uv coordinates do not match Unity
+* jslib files in project asmdef directories are not linked with for web builds
+* Unlit shader without texture is not rendering properly
+* Optimize the dots generate solution window
+* Unify app/bundle id between iOS and Android build components 
+
+
 ## [0.29.0] - 2020-08-19
 ### What's new
 * Web managed debugger

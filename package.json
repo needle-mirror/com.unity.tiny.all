@@ -1,35 +1,41 @@
 {
   "name": "com.unity.tiny.all",
   "displayName": "Project Tiny Full",
-  "version": "0.29.0-preview.22",
+  "version": "0.31.0-preview.25",
   "unity": "2020.1",
   "unityRelease": "0f1",
   "description": "This package includes all Project tiny packages and their dependencies",
   "dependencies": {
-    "com.unity.dots.runtime": "0.29.0-preview.22",
-    "com.unity.entities": "0.14.0-preview.18",
-    "com.unity.tiny": "0.29.0-preview.22",
-    "com.unity.tiny.rendering": "0.29.0-preview.22",
-    "com.unity.tiny.web": "0.29.0-preview.22",
-    "com.unity.tiny.desktop": "0.29.0-preview.22",
-    "com.unity.physics": "0.4.0-preview.5",
-    "com.unity.platforms": "0.7.0-preview.10",
-    "com.unity.platforms.android": "0.7.0-preview.10",
-    "com.unity.platforms.desktop": "0.7.0-preview.10",
-    "com.unity.platforms.ios": "0.7.0-preview.10",
-    "com.unity.platforms.linux": "0.7.0-preview.10",
-    "com.unity.platforms.macos": "0.7.0-preview.10",
-    "com.unity.platforms.web": "0.7.0-preview.10",
-    "com.unity.platforms.windows": "0.7.0-preview.10",
+    "com.unity.dots.runtime": "0.31.0-preview.23",
+    "com.unity.entities": "0.16.0-preview.21",
+    "com.unity.tiny": "0.31.0-preview.23",
+    "com.unity.tiny.web": "0.31.0-preview.23",
+    "com.unity.tiny.desktop": "0.31.0-preview.23",
+    "com.unity.physics": "0.5.1-preview.2",
+    "com.unity.2d.entities.physics": "0.1.0-preview.3",
+    "com.unity.platforms": "0.9.0-preview.9",
+    "com.unity.platforms.android": "0.9.0-preview.9",
+    "com.unity.platforms.ios": "0.9.0-preview.9",
+    "com.unity.platforms.linux": "0.9.0-preview.9",
+    "com.unity.platforms.macos": "0.9.0-preview.9",
+    "com.unity.platforms.web": "0.9.0-preview.9",
+    "com.unity.platforms.windows": "0.9.0-preview.9",
+    "com.unity.platforms.desktop": "0.9.0-preview.9",
     "com.unity.render-pipelines.universal": "8.2.0",
-    "com.unity.rendering.hybrid": "0.8.0-preview.18"
+    "com.unity.rendering.hybrid": "0.10.0-preview.21",
+    "com.unity.modules.assetbundle": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.physics2d": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0"
   },
   "upmCi": {
-    "footprint": "65adcb78758f6e7fd4a638959d144f31f8489bd9"
+    "footprint": "26302212a4e8b4ac4e3bf2de25149e723661e12b"
   },
   "repository": {
     "url": "https://github.com/Unity-Technologies/tiny-all.git",
     "type": "git",
-    "revision": "13e0be62a6c5bed2c66c305e5e63e703024c0b63"
+    "revision": "4cddde46e8aa5f3ba6788114a2ec2058c09735be"
   }
 }
