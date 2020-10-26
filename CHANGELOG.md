@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 * Unlit shader without texture is not rendering properly
 * Optimize the dots generate solution window
 * Unify app/bundle id between iOS and Android build components 
+* Fixed a bug where Wasm builds with single html output fails to load
 
 
 ## [0.29.0] - 2020-08-19

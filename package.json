@@ -1,16 +1,16 @@
 {
   "name": "com.unity.tiny.all",
   "displayName": "Project Tiny Full",
-  "version": "0.31.0-preview.25",
+  "version": "0.31.0-preview.26",
   "unity": "2020.1",
   "unityRelease": "0f1",
   "description": "This package includes all Project tiny packages and their dependencies",
   "dependencies": {
-    "com.unity.dots.runtime": "0.31.0-preview.23",
+    "com.unity.dots.runtime": "0.31.0-preview.24",
     "com.unity.entities": "0.16.0-preview.21",
-    "com.unity.tiny": "0.31.0-preview.23",
-    "com.unity.tiny.web": "0.31.0-preview.23",
-    "com.unity.tiny.desktop": "0.31.0-preview.23",
+    "com.unity.tiny": "0.31.0-preview.24",
+    "com.unity.tiny.web": "0.31.0-preview.24",
+    "com.unity.tiny.desktop": "0.31.0-preview.24",
     "com.unity.physics": "0.5.1-preview.2",
     "com.unity.2d.entities.physics": "0.1.0-preview.3",
     "com.unity.platforms": "0.9.0-preview.9",
@@ -31,11 +31,11 @@
     "com.unity.modules.uielements": "1.0.0"
   },
   "upmCi": {
-    "footprint": "26302212a4e8b4ac4e3bf2de25149e723661e12b"
+    "footprint": "1c606ddab948ff46b7213224eacd430213b0dc23"
   },
   "repository": {
     "url": "https://github.com/Unity-Technologies/tiny-all.git",
     "type": "git",
-    "revision": "4cddde46e8aa5f3ba6788114a2ec2058c09735be"
+    "revision": "3097ae6c0aae609e6f25a42aecac7e87b38e226b"
   }
 }
