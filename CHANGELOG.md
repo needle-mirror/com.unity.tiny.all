@@ -4,8 +4,32 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.32.0] - 2020-12-14
+
+### What's new
+- Improve Tiny audio performance
+- Support for UI in Tiny including (Image, Button, Text, Toggle, Sliders, Rect Transform and Canvas UI components)
+- Improved rendering settings for Android and iOS
+- Support for Gradient ambient color
+- Game save system now supports Web
+- Support for compressed  audio playback
+### Fixed
+- Fix an issue where audio stop playing after turning the screen off and on on iOS web builds
+- Fix a Warning on Chrome if `Unity.Tiny.Audio` asmdef is referenced
+- Fix an issue where build and run does not save the current modified scene
+- Fix a bug in the frustum from cube function that was broken
+- Move build and conversion logs to the Unity project Logs folder
+- Fix a bug where modifying asmdef references doesn't update scene conversion
+- Make sure ScreenToWorld supports multi cameras
+- Failed to load Wasm if built as single html output
+- Improve the C# solution generation workflow
+- Fix a crash when using skinned mesh and blendshape on the same mesh
+- Support Android SDK 28
+
+
 ## [0.31.0] - 2020-10-26
-### hat's new
+
+### What's new
 * Add Version field to GeneralSettings build component
 * Graphics settings now works on mobile platforms
 * Support for native app icons in Android and iOS apps
@@ -19,7 +43,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 * Support for Tiny JSON
 * Custom web templates are now supported
 
-### Fixes
+### Fixed
 * Enhance the emscripten build settings component
 * Skinned meshes don't work with unlit shaders
 * WebpEncoderNativeCalls.LibName is undefined if the Editor target platform is anything else than PC standalone one (the default)
@@ -34,6 +58,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 
 ## [0.29.0] - 2020-08-19
+
 ### What's new
 * Web managed debugger
 * Webp lossless is now the default texture format
@@ -58,6 +83,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 
 ## [0.28.0] - 2020-07-27
+
 ### What's new
 * Basic in-game text rendering support
 * CPU/GPU mesh skinning 
@@ -94,9 +120,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 * Improve unsafe utility allocator for DOTS Runtime
 
 ## [0.27.0] - 2020-06-17
+
 * Update package dependencies 
 
 ## [0.26.0] - 2020-05-26
+
 ### What's new
 * Project Tiny Base Class Library: Added missing types basic collections (e.g. Dictionary, associated iterators) and System.IO.Stream. We’ve created a list of what’s included in the Project Tiny Base Class Library
 * iOS: Modified iOS template project so it will use Storyboard for launch screen instead of XIB files
@@ -112,6 +140,7 @@ Unity version: Project Tiny now requires Unity `2019.3.12f1` as a minimum suppor
 * Depth sorting is not working
 
 ## [0.25.0] - 2020-04-30
+
 ### What's new
 * Multi-touch on Android and iOS
 * Mouse wheel input support
@@ -138,6 +167,7 @@ Unity version: Project Tiny now requires Unity `2019.3.12f1` as a minimum suppor
 
 
 ## [0.24.0] - 2020-04-14
+
 ### What's new
 - Accelerometer/Gyro support for Android and iOS
 - Screen orientation support on mobile
@@ -164,9 +194,11 @@ Unity version: Project Tiny now requires Unity `2019.3.12f1` as a minimum suppor
 
 
 ## [0.23.0] - 2020-03-21
+
 * Update package dependencies
 
 ## [0.22.0] - 2020-02-21
+
 * Update package dependencies
 
 ## [0.21.0] - 2020-02-06
